@@ -1,5 +1,5 @@
-<persistence-unit name="Tutorial">
-    <class>org.example.model.Product</class>
+<persistence-unit name="DataNucleus-Demo">
+    <class>org.datanucleusdemo.model.Product</class>
     <property name="javax.jdo.option.ConnectionURL" value="jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1"/>
     <property name="javax.jdo.option.ConnectionDriverName" value="org.h2.Driver"/>
     <property name="javax.jdo.option.ConnectionUserName" value="sa"/>

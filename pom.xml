@@ -51,7 +51,7 @@
                 <version>${datanucleus.version}</version>
                 <configuration>
                     <api>JDO</api>
-                    <persistenceUnitName>Tutorial</persistenceUnitName>
+                    <persistenceUnitName>DataNucleus-Demo</persistenceUnitName>
                     <includes>
                         <include>org.example.model.Product</include>
                     </includes>

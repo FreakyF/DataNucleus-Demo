@@ -5,7 +5,7 @@ import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
 
 public class PersistenceManagerUtil {
-	private static final String PERSISTENCE_UNIT_NAME = "Tutorial";
+	private static final String PERSISTENCE_UNIT_NAME = "DataNucleus-Demo";
 	private static final PersistenceManagerFactory pmfInstance =
 			JDOHelper.getPersistenceManagerFactory(PERSISTENCE_UNIT_NAME);
 
