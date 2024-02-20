@@ -1,4 +1,4 @@
-package org.datanucleusdemo.persistance;
+package org.datanucleusdemo.persistance.util;
 
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManager;

@@ -1,8 +1,8 @@
 package org.datanucleusdemo;
 
-import org.datanucleusdemo.persistance.LifecycleOperations;
-import org.datanucleusdemo.persistance.PersistenceManagerUtil;
-import org.datanucleusdemo.persistance.TransactionHandler;
+import org.datanucleusdemo.persistance.lifecycle.LifecycleOperations;
+import org.datanucleusdemo.persistance.util.PersistenceManagerUtil;
+import org.datanucleusdemo.persistance.transaction.TransactionHandler;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
