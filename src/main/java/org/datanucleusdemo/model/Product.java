@@ -2,7 +2,6 @@ package org.datanucleusdemo.model;
 
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.PrimaryKey;
-import java.util.UUID;
 
 @PersistenceCapable
 public class Product {
