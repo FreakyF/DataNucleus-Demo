@@ -1,4 +1,4 @@
-package org.datanucleusdemo.persistance;
+package org.datanucleusdemo.persistence.transaction;
 
 import javax.jdo.PersistenceManager;
 import javax.jdo.Transaction;
