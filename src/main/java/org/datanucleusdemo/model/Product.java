@@ -2,19 +2,20 @@ package org.datanucleusdemo.model;
 
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.PrimaryKey;
+import java.util.UUID;
 
 @PersistenceCapable
 public class Product {
 	@PrimaryKey
-	private String id;
+	private int id;
 	private String name;
 
-	public Product(String id, String name) {
+	public Product(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 
@@ -22,7 +23,7 @@ public class Product {
 		return name;
 	}
 
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
