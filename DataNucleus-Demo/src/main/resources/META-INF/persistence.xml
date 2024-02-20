@@ -1,0 +1,8 @@
+<persistence-unit name="Tutorial">
+    <class>org.example.model.Product</class>
+    <property name="javax.jdo.option.ConnectionURL" value="jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1"/>
+    <property name="javax.jdo.option.ConnectionDriverName" value="org.h2.Driver"/>
+    <property name="javax.jdo.option.ConnectionUserName" value="sa"/>
+    <property name="javax.jdo.option.ConnectionPassword" value=""/>
+    <property name="datanucleus.schema.autoCreateAll" value="true"/>
+</persistence-unit>
