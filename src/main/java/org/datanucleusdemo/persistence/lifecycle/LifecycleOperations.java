@@ -45,6 +45,7 @@ public class LifecycleOperations {
 	}
 
 	private static void logOperation(String message) {
+		LOGGER.info(() -> "=============================================================================");
 		LOGGER.info(() -> "Beginning operation: " + message);
 	}
 
