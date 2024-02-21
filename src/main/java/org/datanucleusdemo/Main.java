@@ -2,8 +2,8 @@ package org.datanucleusdemo;
 
 import org.datanucleusdemo.logging.config.LoggerConfig;
 import org.datanucleusdemo.persistence.lifecycle.LifecycleOperations;
-import org.datanucleusdemo.persistence.util.PersistenceHandler;
 import org.datanucleusdemo.persistence.transaction.TransactionHandler;
+import org.datanucleusdemo.persistence.util.PersistenceHandler;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
